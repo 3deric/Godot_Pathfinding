@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=4 uid="uid://bk16m8fa607vu"]
 
 [ext_resource type="Texture2D" uid="uid://c2640b5kexe3c" path="res://Textures/tilemap.png" id="1_tumq0"]
-[ext_resource type="PackedScene" uid="uid://ded58iw3x7u14" path="res://Scenes/player.tscn" id="2_k5f4k"]
-[ext_resource type="PackedScene" uid="uid://7ix7asea8iaw" path="res://Scenes/enemy.tscn" id="3_6phgx"]
+[ext_resource type="PackedScene" uid="uid://ded58iw3x7u14" path="res://NavAgent/Scenes/player.tscn" id="2_k5f4k"]
+[ext_resource type="PackedScene" uid="uid://7ix7asea8iaw" path="res://NavAgent/Scenes/enemy.tscn" id="3_6phgx"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_k5f4k"]
 vertices = PackedVector2Array(10, 10, -10, 10, -10, -10, 10, -10)
